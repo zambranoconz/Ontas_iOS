@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Horizontal2021-05-25 a la(s) 23.25.43.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

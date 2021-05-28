@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB07304F26607A5800FD4726 /* tokensVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB07304E26607A5800FD4726 /* tokensVC.swift */; };
 		CBB8F37C265BFA9C00917848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F37B265BFA9C00917848 /* AppDelegate.swift */; };
 		CBB8F37E265BFA9C00917848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F37D265BFA9C00917848 /* SceneDelegate.swift */; };
-		CBB8F380265BFA9C00917848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F37F265BFA9C00917848 /* ViewController.swift */; };
+		CBB8F380265BFA9C00917848 /* tabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F37F265BFA9C00917848 /* tabBarController.swift */; };
 		CBB8F383265BFA9C00917848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB8F381265BFA9C00917848 /* Main.storyboard */; };
 		CBB8F385265BFAA100917848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB8F384265BFAA100917848 /* Assets.xcassets */; };
 		CBB8F388265BFAA100917848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB8F386265BFAA100917848 /* LaunchScreen.storyboard */; };
+		CBB8F390265C27AC00917848 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F38F265C27AC00917848 /* LoginVC.swift */; };
+		CBB8F392265C2C3700917848 /* RegistroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F391265C2C3700917848 /* RegistroVC.swift */; };
+		CBB8F3F4265CBAC800917848 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBB8F3F3265CBAC800917848 /* GoogleService-Info.plist */; };
+		CBB8F3F6265D310000917848 /* MiCuentaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F3F5265D310000917848 /* MiCuentaVC.swift */; };
+		CBB8F3F8265D311C00917848 /* MapaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F3F7265D311C00917848 /* MapaVC.swift */; };
+		CBB8F3FA265D313000917848 /* ContactosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F3F9265D313000917848 /* ContactosVC.swift */; };
+		CBB8F3FC265D315900917848 /* HistorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F3FB265D315900917848 /* HistorialVC.swift */; };
+		CBB8F3FE265D316D00917848 /* ConfiguracionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8F3FD265D316D00917848 /* ConfiguracionVC.swift */; };
+		F46A8AF32EEF354D8F8520CE /* Pods_Ontas_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3A9BE49DF7023183F59FAF /* Pods_Ontas_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3594AC599DDCD4528BD7686D /* Pods-Ontas_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ontas_iOS.release.xcconfig"; path = "Target Support Files/Pods-Ontas_iOS/Pods-Ontas_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3797587FF6CD7E6C3C7008BD /* Pods-Ontas_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ontas_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Ontas_iOS/Pods-Ontas_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AB3A9BE49DF7023183F59FAF /* Pods_Ontas_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ontas_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB07304E26607A5800FD4726 /* tokensVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tokensVC.swift; sourceTree = "<group>"; };
 		CBB8F378265BFA9C00917848 /* Ontas_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ontas_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB8F37B265BFA9C00917848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBB8F37D265BFA9C00917848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBB8F37F265BFA9C00917848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBB8F37F265BFA9C00917848 /* tabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarController.swift; sourceTree = "<group>"; };
 		CBB8F382265BFA9C00917848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBB8F384265BFAA100917848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB8F387265BFAA100917848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB8F389265BFAA100917848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB8F38F265C27AC00917848 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CBB8F391265C2C3700917848 /* RegistroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroVC.swift; sourceTree = "<group>"; };
+		CBB8F3F3265CBAC800917848 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBB8F3F5265D310000917848 /* MiCuentaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCuentaVC.swift; sourceTree = "<group>"; };
+		CBB8F3F7265D311C00917848 /* MapaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaVC.swift; sourceTree = "<group>"; };
+		CBB8F3F9265D313000917848 /* ContactosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactosVC.swift; sourceTree = "<group>"; };
+		CBB8F3FB265D315900917848 /* HistorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialVC.swift; sourceTree = "<group>"; };
+		CBB8F3FD265D316D00917848 /* ConfiguracionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguracionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46A8AF32EEF354D8F8520CE /* Pods_Ontas_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B5A0AE74BA6DFCA4800EE40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB3A9BE49DF7023183F59FAF /* Pods_Ontas_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72FD70B8FBD8E8D7A87A6D29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3797587FF6CD7E6C3C7008BD /* Pods-Ontas_iOS.debug.xcconfig */,
+				3594AC599DDCD4528BD7686D /* Pods-Ontas_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CBB8F36F265BFA9C00917848 = {
 			isa = PBXGroup;
 			children = (
 				CBB8F37A265BFA9C00917848 /* Ontas_iOS */,
 				CBB8F379265BFA9C00917848 /* Products */,
+				72FD70B8FBD8E8D7A87A6D29 /* Pods */,
+				5B5A0AE74BA6DFCA4800EE40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +100,20 @@
 			children = (
 				CBB8F37B265BFA9C00917848 /* AppDelegate.swift */,
 				CBB8F37D265BFA9C00917848 /* SceneDelegate.swift */,
-				CBB8F37F265BFA9C00917848 /* ViewController.swift */,
+				CBB8F37F265BFA9C00917848 /* tabBarController.swift */,
 				CBB8F381265BFA9C00917848 /* Main.storyboard */,
 				CBB8F384265BFAA100917848 /* Assets.xcassets */,
 				CBB8F386265BFAA100917848 /* LaunchScreen.storyboard */,
 				CBB8F389265BFAA100917848 /* Info.plist */,
+				CBB8F38F265C27AC00917848 /* LoginVC.swift */,
+				CBB8F391265C2C3700917848 /* RegistroVC.swift */,
+				CBB8F3F3265CBAC800917848 /* GoogleService-Info.plist */,
+				CBB8F3F5265D310000917848 /* MiCuentaVC.swift */,
+				CBB8F3F7265D311C00917848 /* MapaVC.swift */,
+				CBB8F3F9265D313000917848 /* ContactosVC.swift */,
+				CBB8F3FB265D315900917848 /* HistorialVC.swift */,
+				CBB8F3FD265D316D00917848 /* ConfiguracionVC.swift */,
+				CB07304E26607A5800FD4726 /* tokensVC.swift */,
 			);
 			path = Ontas_iOS;
 			sourceTree = "<group>";
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBB8F38C265BFAA100917848 /* Build configuration list for PBXNativeTarget "Ontas_iOS" */;
 			buildPhases = (
+				14975B1141F9F5AD61948B58 /* [CP] Check Pods Manifest.lock */,
 				CBB8F374265BFA9C00917848 /* Sources */,
 				CBB8F375265BFA9C00917848 /* Frameworks */,
 				CBB8F376265BFA9C00917848 /* Resources */,
+				75D7C40A2EFF313F8287E692 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB8F388265BFAA100917848 /* LaunchScreen.storyboard in Resources */,
+				CBB8F3F4265CBAC800917848 /* GoogleService-Info.plist in Resources */,
 				CBB8F385265BFAA100917848 /* Assets.xcassets in Resources */,
 				CBB8F383265BFA9C00917848 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +186,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14975B1141F9F5AD61948B58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ontas_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D7C40A2EFF313F8287E692 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ontas_iOS/Pods-Ontas_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ontas_iOS/Pods-Ontas_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ontas_iOS/Pods-Ontas_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBB8F374265BFA9C00917848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB8F380265BFA9C00917848 /* ViewController.swift in Sources */,
+				CBB8F3FE265D316D00917848 /* ConfiguracionVC.swift in Sources */,
+				CBB8F3F6265D310000917848 /* MiCuentaVC.swift in Sources */,
+				CBB8F392265C2C3700917848 /* RegistroVC.swift in Sources */,
+				CBB8F380265BFA9C00917848 /* tabBarController.swift in Sources */,
+				CB07304F26607A5800FD4726 /* tokensVC.swift in Sources */,
+				CBB8F3FA265D313000917848 /* ContactosVC.swift in Sources */,
+				CBB8F3F8265D311C00917848 /* MapaVC.swift in Sources */,
 				CBB8F37C265BFA9C00917848 /* AppDelegate.swift in Sources */,
+				CBB8F3FC265D315900917848 /* HistorialVC.swift in Sources */,
+				CBB8F390265C27AC00917848 /* LoginVC.swift in Sources */,
 				CBB8F37E265BFA9C00917848 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +387,7 @@
 		};
 		CBB8F38D265BFAA100917848 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3797587FF6CD7E6C3C7008BD /* Pods-Ontas_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +406,7 @@
 		};
 		CBB8F38E265BFAA100917848 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3594AC599DDCD4528BD7686D /* Pods-Ontas_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
